@@ -1,0 +1,29 @@
+{
+  "name": "lodown-eric-skinner",
+  "version": "1.0.1np",
+  "description": "An npm functional programming library project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-skinner/lodown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-skinner/lodown/issues"
+  },
+  "homepage": "https://github.com/eric-skinner/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "sinon": "^4.5.0"
+  }
+}
